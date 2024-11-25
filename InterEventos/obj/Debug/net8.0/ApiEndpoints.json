@@ -1,0 +1,172 @@
+[
+  {
+    "ContainingType": "InterEventsAPI.Controllers.AttendantController",
+    "Method": "GetSuscriptions",
+    "RelativePath": "api/Attendant/GetSuscriptions/{idUser}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUser",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterEventsAPI.Controllers.AttendantController",
+    "Method": "SubscribeForEvent",
+    "RelativePath": "api/Attendant/SubscribeForEvent",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "attendantRegister",
+        "Type": "Models.DTO.Attendant.AttendantRegisterEvent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterEventsAPI.Controllers.AttendantController",
+    "Method": "UnsubscribeForEvent",
+    "RelativePath": "api/Attendant/UnsubscribeForEvent",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "attendantRegister",
+        "Type": "Models.DTO.Attendant.AttendantRegisterEvent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterEvents.Controllers.EventsController",
+    "Method": "ChangeStateEvent",
+    "RelativePath": "api/Events/ChangeStateEvent",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventState",
+        "Type": "Models.DTO.Event.EventStateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterEvents.Controllers.EventsController",
+    "Method": "CreateEvent",
+    "RelativePath": "api/Events/CreateEvent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newEvent",
+        "Type": "Models.DTO.EventDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterEvents.Controllers.EventsController",
+    "Method": "DeleteEvent",
+    "RelativePath": "api/Events/DeleteEvent",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventState",
+        "Type": "Models.DTO.Event.EventDeleteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterEvents.Controllers.EventsController",
+    "Method": "EditEvent",
+    "RelativePath": "api/Events/EditEvent",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editEvent",
+        "Type": "Models.DTO.EventDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterEvents.Controllers.EventsController",
+    "Method": "GetEvents",
+    "RelativePath": "api/Events/GetEvents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterEvents.Controllers.EventsController",
+    "Method": "GetEventsById",
+    "RelativePath": "api/Events/GetEventsById/{idUser}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUser",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterEvents.Controllers.UsersController",
+    "Method": "RegistryUser",
+    "RelativePath": "api/Users/RegistryUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Models.DTO.UserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InterEvents.Controllers.UsersController",
+    "Method": "UserLogin",
+    "RelativePath": "api/Users/UserLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credential",
+        "Type": "Models.DTO.User.UserCredentialDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
